@@ -28,3 +28,33 @@ p {
 h3, h1 {
     color: floralwhite;
 }
+
+nav ul li {
+    display: inline-block;
+}
+
+
+/*Nav Styling*/
+    nav ul li a {
+        padding: 1.5em 5em;
+        display: block;
+    }
+nav a {
+    font-weight: bold;
+    color: lightsalmon;
+}
+
+    nav a:hover, nav a:active, nav a:focus {
+        text-decoration: none;
+    }
+
+nav ul {
+    background-color: teal;
+    padding: 0;
+    border-top: 2px dotted darkgray;
+    border-bottom: 2px dotted darkgray;
+}
+
+nav li:hover {
+    background-color: darkblue;
+}
