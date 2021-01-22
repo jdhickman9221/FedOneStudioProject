@@ -1,19 +1,23 @@
-﻿
+﻿/*Header Styling*/
+header{
+  
+    z-index:10;
+}
 
+header img{
+    display: block;
+}
 
 
 
 /*Nav Styling*/
-    nav ul li a {
+
+nav ul li a {
         padding: 1.5em 5em;
         display: block;
     }
-nav a {
-    font-weight: bold;
-    color: lightsalmon;
-}
 
-    nav a:hover, nav a:active, nav a:focus {
+nav a:hover, nav a:active, nav a:focus {
         text-decoration: none;
     }
 
@@ -24,10 +28,13 @@ nav ul {
     border-bottom: 2px dotted darkgray;
 }
 
+nav li{
+    display: inline-block;
+}
+
 nav li:hover {
     background-color: darkblue;
 }
-
 nav ul li {
     display: inline-block;
 }
