@@ -1,37 +1,6 @@
-﻿header{
-    background-color: purple
-}
-main{
-    background-color: purple;
+﻿
 
-}
-footer{
-    background-color: rebeccapurple;
-}
 
-.aboutus{
-    color:floralwhite;
-}
-
-ul, li{
-    font-weight: bolder;
-}
-
-.companyname{ 
-    font-weight: bolder
-}
-
-p {
-    color: floralwhite;
-}
-
-h3, h1 {
-    color: floralwhite;
-}
-
-nav ul li {
-    display: inline-block;
-}
 
 
 /*Nav Styling*/
@@ -57,4 +26,8 @@ nav ul {
 
 nav li:hover {
     background-color: darkblue;
+}
+
+nav ul li {
+    display: inline-block;
 }

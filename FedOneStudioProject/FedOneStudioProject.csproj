@@ -67,6 +67,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Resources\images\address.jpg" />
+    <Content Include="Resources\images\beehousedripper.jpg" />
+    <Content Include="Resources\images\beehousetopview.jpg" />
+    <Content Include="Resources\images\electrickettle.jpg" />
+    <Content Include="Resources\images\feildnotessetup.jpg" />
+    <Content Include="Resources\images\justus-menke-_waK0qpdvm0-unsplash.jpg" />
+    <Content Include="Resources\images\kalitawavemidpour.jpg" />
+    <Content Include="Resources\images\lonechemex.jpg" />
+    <Content Include="Resources\images\nathan-dumlao-UfsLEfAoS2U-unsplash.jpg" />
     <Content Include="Resources\stylesheets\index.css" />
     <Content Include="Team.html" />
     <Content Include="Contact.html" />
@@ -87,7 +96,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Resources\images\" />
     <Folder Include="Resources\scripts\" />
   </ItemGroup>
   <PropertyGroup>
