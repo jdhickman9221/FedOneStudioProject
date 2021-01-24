@@ -10,16 +10,16 @@
 
 
 /*#region Index HTML*/
-    p, h1 {
-        font-family: 'IBM Plex Sans', sans-serif;
-    }
+        p, h1 {
+            font-family: 'IBM Plex Sans', sans-serif;
+            
+        }
 
         p.slogan {
             font-size: 40px;
             padding-bottom: 0;
             margin: auto;
             color: rgba(243, 243, 243, 1);
-            
         }
 
         h1.companyname {
@@ -32,30 +32,44 @@
             text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
         }
 
-    main section {
-        width: 85%;
-        margin: 0 auto;
-        padding-top:20px;
-        padding-bottom:30px;
-    }
+        main section {
+            width: 85%;
+            margin: 0 auto;
+            padding-top:20px;
+            padding-bottom:30px;
+        }
+        main p span{
+            font-style: italic;
+        }
 
-    section p, h3.aboutUs {
-        margin: 0 0 0 190px;
-    }
-    body{
-    
-    }
+        section p, h3.aboutUs {
+            margin: 0 0 0 190px;
+            
+        }
+
+        h3.aboutUs {
+            text-decoration: underline;
+        }
+
+        div h1.whyChooseUs{
+            margin: auto;
+
+        }
+
+
+            body {
+            }
 
 
 
 
 /*#endregion*/
 /*#region Nav Styling*/
-    nav {
-        margin: auto;
-        display: block;
-        width: 1150px;
-    }
+        nav {
+            margin: auto;
+            display: block;
+            width: 1150px;
+            }
         nav ul li a {
             padding: 1em 3.5em;
             display: block;
@@ -64,53 +78,50 @@
             font-weight: 300;
             color: rgb(85, 85, 85);
             text-decoration: none;
-        }
+            }
 
         nav a:hover, nav a:active, nav a:focus {
             text-decoration: none;
-           
         }
 
-nav ul {
-        margin: auto;
-        width: 1108px;
-        background-color: rgb(255, 255, 255);
-        border-top: 4px solid rgb(85, 85, 85);
-        border-bottom: 2px solid rgb(85, 85, 85);
-        border-left: 2px solid rgb(85, 85, 85);
-        border-right: 2px solid rgb(85, 85, 85);
-    }
+        nav ul {
+            margin: auto;
+            width: 1108px;
+            background-color: rgb(255, 255, 255);
+            border-top: 3px solid rgb(85, 85, 85);
+            border-bottom: 2px solid rgb(85, 85, 85);
+            border-left: 2px solid rgb(85, 85, 85);
+            border-right: 2px solid rgb(85, 85, 85);
+            }
 
-nav li {
-        display: inline-block;
-    }
+        nav li {
+            display: inline-block;
+            }
 
-    nav li:hover {
-        background-color: rgba(185, 104, 199,.2);
-        text-shadow: shadow1, shadow2, shadow3;
-        text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
-    }
+        nav li:hover {
+            background-color: rgba(185, 104, 199,.2);
+            text-shadow: shadow1;
+            text-shadow: 4px 3px 0px #fff;
+             }
 
-nav ul li {
-        display: inline-block;
-    }
+        nav ul li {
+            display: inline-block;
+            }
 /*#endregion*/
 
 /*#region Images+Classes*/
-#aboutUspng {
-    float: left;
-    margin-right: 20px;
-    margin-left: 20px;
-    width:150px;
-}
+        #aboutUspng {
+            float: left;
+            margin-right: 20px;
+            margin-left: 20px;
+            width:200px;
+            }
 
-img.companylogo{
-    width:220px;
-    height:auto;
-    float: left;
-
-
-}
+        img.companylogo{
+        width:220px;
+        height:auto;
+        float: left;
+        }
 /*#endregion*/
 
 /*#region header styling*/
@@ -124,8 +135,28 @@ header {
     border-top: 2px solid rgb(85, 85, 85);
     border-left: 2px solid rgb(85, 85, 85);
     border-right: 2px solid rgb(85, 85, 85);
-    
-   
+}
+
+main section {
+    width: 950px;
+}
+
+main section p {
+    font-size: 16px;
 }
 /*#endregion*/
 
+
+footer {
+    margin: auto;
+    width: 1149px;
+    height: 100px;
+    background-image:;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 2px solid rgb(85, 85, 85);
+    border-left: 2px solid rgb(85, 85, 85);
+    border-right: 2px solid rgb(85, 85, 85);
+    border-bottom: 2px solid rgb(85, 85, 85);
+    padding-bottom:;
+}
