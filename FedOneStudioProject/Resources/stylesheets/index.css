@@ -86,14 +86,14 @@ h1.whyChooseUs {
             display: block;
             width: 1154px;
             }
-        nav ul li a {
-            padding: 1em 3.5em;
-            display: block;
-            font-family: 'IBM Plex Sans', sans-serif;
-            font-size: 20px;
-            font-weight: 300;
-            color: rgb(85, 85, 85);
-            text-decoration: none;
+            nav ul li a {
+                padding: 1em 3.5em;
+                display: block;
+                font-family: 'IBM Plex Sans', sans-serif;
+                font-size: 20px;
+                font-weight: 300;
+                color: rgb(156, 40, 177);
+                text-decoration: none;
             }
 
         nav a:hover, nav a:active, nav a:focus {
