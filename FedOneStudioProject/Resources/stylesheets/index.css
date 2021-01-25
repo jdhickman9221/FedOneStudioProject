@@ -72,7 +72,6 @@ h1.whyChooseUs {
     text-align: center;
     margin: auto;
     line-height: 1.6;
-    text-d
 }
 
 
@@ -92,7 +91,7 @@ h1.whyChooseUs {
                 font-family: 'IBM Plex Sans', sans-serif;
                 font-size: 20px;
                 font-weight: 300;
-                color: rgb(156, 40, 177);
+                color: #fff;
                 text-decoration: none;
             }
 
@@ -118,17 +117,19 @@ nav ul {
     background-repeat: repeat;
     background-position:;
     background-size:500px;
+  
 }
 
-        nav li {
-            display: inline-block;
-            }
+nav li {
+    display: inline-block;
+    justify-content: center;
+}
 
-        nav li:hover {
-            background-color: rgba(185, 104, 199,.2);
-            text-shadow: shadow1;
-            text-shadow: 4px 3px 0px #fff;
-             }
+    nav li:hover {
+        background-color: rgba(151, 244, 173, .3);
+        text-shadow: shadow1;
+        text-shadow: 4px 3px 0px #555555
+    }
 
         nav ul li {
             display: inline-block;
