@@ -1,60 +1,238 @@
-﻿header{
-    background-color: purple
-}
-main{
-    background-color: purple;
+﻿/*#region Fonts*/
+/*font-family: 'IBM Plex Sans', sans-serif; (this is for paragraphs, captions, anchors, h1s)*/
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,200;0,300;1,200;1,300&display=swap');
+/*font-family: 'Monoton', cursive; (this is for your logo)*/
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+/*font-family: 'Permanent Marker', cursive; (this is for h3 and down)*/
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
-}
-footer{
-    background-color: rebeccapurple;
-}
-
-.aboutus{
-    color:floralwhite;
-}
-
-ul, li{
-    font-weight: bolder;
-}
-
-.companyname{ 
-    font-weight: bolder
-}
-
-p {
-    color: floralwhite;
-}
-
-h3, h1 {
-    color: floralwhite;
-}
-
-nav ul li {
-    display: inline-block;
-}
+/*#endregion*/
 
 
-/*Nav Styling*/
-    nav ul li a {
-        padding: 1.5em 5em;
-        display: block;
+/*#region Index HTML*/
+p, h1, h3 {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+div.aboutUs {
+    width: 900px;
+}
+
+p.slogan {
+    font-size: 40px;
+    padding-bottom: 0;
+    margin: auto;
+    color: rgba(243, 243, 243, 1);
+}
+
+h1.companyname {
+    font-family: 'Monoton', cursive;
+    font-size: 60px;
+    color: rgb(85, 85, 85);
+    margin: auto;
+    padding-top: 45px;
+    text-shadow: shadow1, shadow2, shadow3;
+    text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+}
+
+main section {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+section.whyChooseUs {
+    margin: auto;
+    padding: 0 0 10px 0;
+}
+
+    section.whyChooseUs h1 {
+        font-size: 25px;
+        font-family: 'Monoton', cursive;
+        text-shadow: shadow1, shadow2, shadow3;
+        text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
     }
-nav a {
-    font-weight: bold;
-    color: lightsalmon;
+
+main p span {
+    font-style: italic;
 }
+
+section p.aboutUs, h3.aboutUs {
+    margin: 0 0 0 190px;
+    line-height: 1.6;
+}
+
+h3.aboutUs {
+    text-decoration: underline;
+}
+
+h1.whyChooseUs {
+    text-align: center;
+    margin: auto;
+    line-height: 1.6;
+}
+
+
+
+/*#endregion*/
+
+
+/*#region Nav Styling*/
+nav {
+    margin: auto;
+    display: block;
+    width: 1154px;
+}
+
+    nav ul li a {
+        padding: 1em 3.5em;
+        display: block;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+        color: #fff;
+        text-decoration: none;
+    }
 
     nav a:hover, nav a:active, nav a:focus {
         text-decoration: none;
     }
 
-nav ul {
-    background-color: teal;
-    padding: 0;
-    border-top: 2px dotted darkgray;
-    border-bottom: 2px dotted darkgray;
+div .navbar {
+    display: block;
+    width: 1154px;
+    margin: auto;
 }
 
-nav li:hover {
-    background-color: darkblue;
+nav ul {
+    margin: auto;
+    width: 1108px;
+    background-image: url(/Resources/images/crumpledpaper1154x186.png);
+    background-color: rgb(255, 255, 255);
+    border-top: 3px solid rgb(85, 85, 85);
+    border-bottom: 3px solid rgb(85, 85, 85);
+    border-left: 3px solid rgb(85, 85, 85);
+    border-right: 3px solid rgb(85, 85, 85);
+    background-repeat: repeat;
+    background-position:;
+    background-size: 500px;
+}
+
+nav li {
+    display: inline-block;
+    justify-content: center;
+}
+
+    nav li:hover {
+        background-color: rgba(151, 244, 173, .3);
+        text-shadow: shadow1;
+        text-shadow: 4px 3px 0px #555555
+    }
+
+nav ul li {
+    display: inline-block;
+}
+/*#endregion*/
+
+
+/*#region Images+Classes*/
+#aboutUspng {
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 250px;
+}
+
+img.companylogo {
+    width: 220px;
+    height: auto;
+    float: left;
+}
+
+img.whyChooseUs1 {
+    width: 400px;
+    height: 267px;
+}
+
+img.whyChooseUs2 {
+    width: 400px;
+    height: 267px;
+}
+/*#endregion*/
+
+
+/*#region Why Choose Us*/
+div.grid-item2 {
+    border-top: 2px dashed rgb(85, 85, 85);
+}
+
+div.grid-item3 {
+}
+
+    div.grid-item2 h3, div.grid-item3 h3 {
+        text-align: center;
+    }
+
+div.flex-grid {
+    display: flex;
+    flex-wrap: wrap;
+    height: 534px;
+    justify-content: center;
+    margin: auto;
+}
+
+.grid-item1, .grid-item2, .grid-item3, .grid-item4 {
+    margin: 0;
+    height: 267px;
+    width: 400px;
+}
+
+div .grid-item2 p, div .grid-item3 p {
+    line-height: 1.4;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.grid-item3, .grid-item4 {
+    margin-bottom: auto;
+}
+/*#endregion*/
+
+
+/*#region Header Styling*/
+header {
+    margin: auto;
+    width: 1150px;
+    height: 250px;
+    background-image: url(/Resources/images/headerimg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 2px solid rgb(85, 85, 85);
+    border-left: 2px solid rgb(85, 85, 85);
+    border-right: 2px solid rgb(85, 85, 85);
+}
+
+main section {
+    width: 950px;
+}
+
+    main section p {
+        font-size: 16px;
+    }
+/*#endregion*/
+
+
+footer {
+    margin: auto;
+    width: 1154px;
+    height: 100px;
+    background-image: url(/Resources/images/crumpledpaper1154x186.png);
+    background-repeat: repeat;
+    background-size: 550px;
+    border-top: 2px solid rgb(85, 85, 85);
+    border-left: 2px solid rgb(85, 85, 85);
+    border-right: 2px solid rgb(85, 85, 85);
+    border-bottom: 2px solid rgb(85, 85, 85);
+    padding-bottom:;
 }
