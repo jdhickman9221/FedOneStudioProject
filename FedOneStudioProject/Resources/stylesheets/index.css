@@ -10,9 +10,12 @@
 
 
 /*#region Index HTML*/
-        p, h1 {
+        p, h1, h3 {
             font-family: 'IBM Plex Sans', sans-serif;
-            
+        }
+
+        div.aboutUs {
+            width: 900px;           
         }
 
         p.slogan {
@@ -33,7 +36,7 @@
         }
 
         main section {
-            width: 85%;
+            width: 75%;
             margin: 0 auto;
             padding-top:20px;
             padding-bottom:30px;
@@ -44,21 +47,30 @@
 
         section p, h3.aboutUs {
             margin: 0 0 0 190px;
-            
+            line-height: 1.6;
         }
 
         h3.aboutUs {
             text-decoration: underline;
         }
 
-        div h1.whyChooseUs{
-            margin: auto;
-
+        div.whyChooseUs1, div.whyChooseUs2 {
+            margin:0;
+            display:block;
+            height:267px;
+          
         }
+div h1.whyChooseUs {
+    text-align: center;
+    line-height: 1.4;
+    margin: auto;
+}
 
-
-            body {
-            }
+        div.whyChooseUs1 p, div.whyChooseUs2 p {
+           line-height: 1.6;
+           font-size: 14px;
+           width: 750px;
+        }
 
 
 
@@ -68,7 +80,7 @@
         nav {
             margin: auto;
             display: block;
-            width: 1150px;
+            width: 1154px;
             }
         nav ul li a {
             padding: 1em 3.5em;
@@ -83,15 +95,21 @@
         nav a:hover, nav a:active, nav a:focus {
             text-decoration: none;
         }
+        div{
+            display:block;
+            width: 1154px;
+            margin:auto;
+        }
 
         nav ul {
             margin: auto;
             width: 1108px;
             background-color: rgb(255, 255, 255);
             border-top: 3px solid rgb(85, 85, 85);
-            border-bottom: 2px solid rgb(85, 85, 85);
-            border-left: 2px solid rgb(85, 85, 85);
-            border-right: 2px solid rgb(85, 85, 85);
+            border-bottom: 3px solid rgb(85, 85, 85);
+            border-left: 3px solid rgb(85, 85, 85);
+            border-right: 3px solid rgb(85, 85, 85);
+            
             }
 
         nav li {
@@ -118,45 +136,62 @@
             }
 
         img.companylogo{
-        width:220px;
-        height:auto;
-        float: left;
-        }
+            width:220px;
+            height:auto;
+            float: left;
+            }
+
+        img.whyChooseUs1 {
+            float: left;
+            margin-right: 20px;
+            margin-left: 20px;
+            width: 400px;
+            height:267px;
+            vertical-align:bottom
+}
+img.whyChooseUs2 {
+    float: right;
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 400px;
+    height: 267px;
+    vertical-align: bottom
+}
 /*#endregion*/
 
 /*#region header styling*/
-header {
-    margin: auto;
-    width: 1149px;
-    height: 250px;
-    background-image: url(/Resources/images/headerimg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-top: 2px solid rgb(85, 85, 85);
-    border-left: 2px solid rgb(85, 85, 85);
-    border-right: 2px solid rgb(85, 85, 85);
-}
+        header {
+            margin: auto;
+            width: 1150px;
+            height: 250px;
+            background-image: url(/Resources/images/headerimg.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-top: 2px solid rgb(85, 85, 85);
+            border-left: 2px solid rgb(85, 85, 85);
+            border-right: 2px solid rgb(85, 85, 85);
+            }
 
-main section {
-    width: 950px;
-}
+        main section {
+             width: 950px;
+            }
 
-main section p {
-    font-size: 16px;
-}
+        main section p {
+             font-size: 16px;
+            }       
 /*#endregion*/
 
 
-footer {
-    margin: auto;
-    width: 1149px;
-    height: 100px;
-    background-image:;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-top: 2px solid rgb(85, 85, 85);
-    border-left: 2px solid rgb(85, 85, 85);
-    border-right: 2px solid rgb(85, 85, 85);
-    border-bottom: 2px solid rgb(85, 85, 85);
-    padding-bottom:;
-}
+        footer {
+            margin: auto;
+            width: 1154px;
+            height: 100px;
+            background-image:;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-top: 2px solid rgb(85, 85, 85);
+            border-left: 2px solid rgb(85, 85, 85);
+            border-right: 2px solid rgb(85, 85, 85);
+            border-bottom: 2px solid rgb(85, 85, 85);
+            padding-bottom:;
+            }
