@@ -67,6 +67,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Resources\images\aboutus2.png" />
+    <Content Include="Resources\images\address.jpg" />
     <Content Include="Resources\images\coldbrew400x267.png" />
     <Content Include="Resources\images\crumpledpaper1154x186.png" />
     <Content Include="Resources\images\feildnotessetup400x267.png" />

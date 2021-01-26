@@ -106,7 +106,8 @@ div .navbar {
 }
 
 nav ul {
-    margin: auto;
+    margin: auto; 
+/*margin auto here lets the header and nav bar container connetct.*/
     width: 1108px;
     background-image: url(/Resources/images/crumpledpaper1154x186.png);
     background-color: rgb(255, 255, 255);
@@ -115,13 +116,12 @@ nav ul {
     border-left: 3px solid rgb(85, 85, 85);
     border-right: 3px solid rgb(85, 85, 85);
     background-repeat: repeat;
-    background-position:;
     background-size: 500px;
+/*background size changes to the image lets you kindof zoom in/zoom out. in this context it let me zoom out to catch more of the paper texture.*/
 }
 
 nav li {
     display: inline-block;
-    justify-content: center;
 }
 
     nav li:hover {
@@ -132,6 +132,7 @@ nav li {
 
 nav ul li {
     display: inline-block;
+
 }
 /*#endregion*/
 
