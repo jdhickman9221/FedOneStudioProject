@@ -10,43 +10,41 @@
 
 
 /*#region Index HTML*/
-        p, h1, h3 {
-            font-family: 'IBM Plex Sans', sans-serif;
-        }
+p, h1, h3 {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
 
-        div.aboutUs {
-            width: 900px;           
-        }
+div.aboutUs {
+    width: 900px;
+}
 
-        p.slogan {
-            font-size: 40px;
-            padding-bottom: 0;
-            margin: auto;
-            color: rgba(243, 243, 243, 1);
-        }
+p.slogan {
+    font-size: 40px;
+    padding-bottom: 0;
+    margin: auto;
+    color: rgba(243, 243, 243, 1);
+}
 
-        h1.companyname {
-            font-family: 'Monoton', cursive;
-            font-size: 60px;
-            color: rgb(85, 85, 85);
-            margin: auto;
-            padding-top: 45px;
-            text-shadow: shadow1, shadow2, shadow3;
-            text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
-        }
+h1.companyname {
+    font-family: 'Monoton', cursive;
+    font-size: 60px;
+    color: rgb(85, 85, 85);
+    margin: auto;
+    padding-top: 45px;
+    text-shadow: shadow1, shadow2, shadow3;
+    text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+}
 
-        main section {
-            width: 75%;
-            margin: 0 auto;
-            padding-top:20px;
-            padding-bottom:30px;
-        }
+main section {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
 
 section.whyChooseUs {
     margin: auto;
     padding: 0 0 10px 0;
-    
-
 }
 
     section.whyChooseUs h1 {
@@ -55,18 +53,19 @@ section.whyChooseUs {
         text-shadow: shadow1, shadow2, shadow3;
         text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
     }
-        main p span{
-            font-style: italic;
-        }
 
-        section p.aboutUs, h3.aboutUs {
-            margin: 0 0 0 190px;
-            line-height: 1.6;
-        }
+main p span {
+    font-style: italic;
+}
 
-        h3.aboutUs {
-            text-decoration: underline;
-        }
+section p.aboutUs, h3.aboutUs {
+    margin: 0 0 0 190px;
+    line-height: 1.6;
+}
+
+h3.aboutUs {
+    text-decoration: underline;
+}
 
 h1.whyChooseUs {
     text-align: center;
@@ -78,32 +77,56 @@ h1.whyChooseUs {
 
 /*#endregion*/
 
+/*#region CONTACT*/
+section.maincontact {
+}
+
+    section.maincontact h1 {
+        font-size: 50px;
+        margin: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    section.maincontact div {
+        width: 500px;
+        margin: auto;
+    }
+
+.contactinfo {
+    text-align: left;
+}
+
+/*endregion*/
+
 
 /*#region Nav Styling*/
-        nav {
-            margin: auto;
-            display: block;
-            width: 1154px;
-            }
-            nav ul li a {
-                padding: 1em 3.5em;
-                display: block;
-                font-family: 'IBM Plex Sans', sans-serif;
-                font-size: 20px;
-                font-weight: 300;
-                color: #fff;
-                text-decoration: none;
-            }
+nav {
+    margin: auto;
+    display: block;
+    width: 1154px;
+}
 
-        nav a:hover, nav a:active, nav a:focus {
-            text-decoration: none;
-        }
-        div .navbar{
-            display:block;
-            width: 1154px;
-            margin:auto;
+    nav ul li a {
+        padding: 1em 3.5em;
+        display: block;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+        color: #fff;
+        text-decoration: none;
+    }
 
-        }
+    nav a:hover, nav a:active, nav a:focus {
+        text-decoration: none;
+    }
+
+div .navbar {
+    display: block;
+    width: 1154px;
+    margin: auto;
+}
 
 nav ul {
     margin: auto;
@@ -116,8 +139,7 @@ nav ul {
     border-right: 3px solid rgb(85, 85, 85);
     background-repeat: repeat;
     background-position:;
-    background-size:500px;
-  
+    background-size: 500px;
 }
 
 nav li {
@@ -131,45 +153,77 @@ nav li {
         text-shadow: 4px 3px 0px #555555
     }
 
-        nav ul li {
-            display: inline-block;
-            }
+nav ul li {
+    display: inline-block;
+}
 /*#endregion*/
 
 
 /*#region Images+Classes*/
-        #aboutUspng {
-            float: left;
-            margin-right: 20px;
-            margin-left: 20px;
-            width:250px;
-            }
-
-        img.companylogo{
-            width:220px;
-            height:auto;
-            float: left;
-            }
-
-        img.whyChooseUs1 {
-            width: 400px;
-            height:267px;  
+.mapsimageanchor a{
+    margin:auto;
+    padding-left: 100px;
+    padding-right: 100px;
+   
 }
+
+img.instagramlogo {
+    float: right;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left:
+}
+
+
+
+img.facebooklogo {
+    float: right;
+    padding-top: 5px;
+    padding-right: 85px;
+    padding-bottom: 0;
+}
+
+img.twitterlogo {
+    float: right;
+    padding-top: 5px;
+    padding-right: 85px;
+}
+
+#aboutUspng {
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 250px;
+}
+
+img.companylogo {
+    width: 220px;
+    height: auto;
+    float: left;
+}
+
+img.whyChooseUs1 {
+    width: 400px;
+    height: 267px;
+}
+
 img.whyChooseUs2 {
     width: 400px;
     height: 267px;
-    
 }
 /*#endregion*/
 
 
 /*#region Why Choose Us*/
+div.whyChooseUsHeader1 h1 {
+    background-color: rgb(255, 255, 255);
+}
+
 div.grid-item2 {
     border-top: 2px dashed rgb(85, 85, 85);
 }
 
 div.grid-item3 {
- 
 }
 
     div.grid-item2 h3, div.grid-item3 h3 {
@@ -179,7 +233,8 @@ div.grid-item3 {
 div.flex-grid {
     display: flex;
     flex-wrap: wrap;
-    height: 534px;
+    height: 537px;
+    width: 800px;
     justify-content: center;
     margin: auto;
 }
@@ -188,53 +243,78 @@ div.flex-grid {
     margin: 0;
     height: 267px;
     width: 400px;
+    padding: -1px;
 }
 
 div .grid-item2 p, div .grid-item3 p {
     line-height: 1.4;
     text-align: center;
     padding: 10px 10px;
+    margin: 0;
 }
 
 .grid-item3, .grid-item4 {
-    margin-bottom: auto;
+    margin-bottom: 0;
 }
 /*#endregion*/
 
 
 /*#region Header Styling*/
-        header {
-            margin: auto;
-            width: 1150px;
-            height: 250px;
-            background-image: url(/Resources/images/headerimg.png);
-            background-repeat: no-repeat;
-            background-size: cover;
-            border-top: 2px solid rgb(85, 85, 85);
-            border-left: 2px solid rgb(85, 85, 85);
-            border-right: 2px solid rgb(85, 85, 85);
-            }
+header {
+    margin: auto;
+    width: 1150px;
+    height: 250px;
+    background-image: url(/Resources/images/headerimg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 2px solid rgb(85, 85, 85);
+    border-left: 2px solid rgb(85, 85, 85);
+    border-right: 2px solid rgb(85, 85, 85);
+}
 
-        main section {
-             width: 950px;
-            }
+main section {
+    width: 950px;
+}
 
-        main section p {
-             font-size: 16px;
-            }       
+    main section p {
+        font-size: 16px;
+    }
 /*#endregion*/
 
 
-        footer {
-            margin: auto;
-            width: 1154px;
-            height: 100px;
-            background-image: url(/Resources/images/crumpledpaper1154x186.png);
-            background-repeat: repeat;
-            background-size: 550px;
-            border-top: 2px solid rgb(85, 85, 85);
-            border-left: 2px solid rgb(85, 85, 85);
-            border-right: 2px solid rgb(85, 85, 85);
-            border-bottom: 2px solid rgb(85, 85, 85);
-            padding-bottom:;
-            }
+footer {
+    margin: auto;
+    width: 1154px;
+    height: 100px;
+    background-image: url(/Resources/images/crumpledpaper1154x186.png);
+    background-repeat: repeat;
+    background-size: 550px;
+    border-top: 2px solid rgb(85, 85, 85);
+    border-left: 2px solid rgb(85, 85, 85);
+    border-right: 2px solid rgb(85, 85, 85);
+    border-bottom: 2px solid rgb(85, 85, 85);
+    padding-bottom:;
+}
+
+img.footeremail{
+    float: right;
+    padding-right: 70px;
+    padding-top:34.5px;
+    padding-bottom: 34.5px;
+    margin: auto;
+}
+img.linkedinlogo {
+    float: right;
+    padding-right: 85px;
+    padding-top: 34.5px;
+    padding-bottom: 34.5px;
+    margin: auto;
+}
+section.footer{
+    height: 104px;
+    width: 1158px;
+    padding-bottom: 40px;
+}
+
+
+

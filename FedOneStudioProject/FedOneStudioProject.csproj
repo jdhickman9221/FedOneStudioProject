@@ -69,11 +69,16 @@
   <ItemGroup>
     <Content Include="Resources\images\aboutus2.png" />
     <Content Include="Resources\images\address.jpg" />
+    <Content Include="Resources\images\at-solid.png" />
     <Content Include="Resources\images\coldbrew400x267.png" />
     <Content Include="Resources\images\crumpledpaper1154x186.png" />
+    <Content Include="Resources\images\facebook-square-brands.png" />
     <Content Include="Resources\images\feildnotessetup400x267.png" />
     <Content Include="Resources\images\headerimg.png" />
     <Content Include="Resources\images\ibrewlablogolarge.png" />
+    <Content Include="Resources\images\instagram-brands.png" />
+    <Content Include="Resources\images\linkedin-brands.png" />
+    <Content Include="Resources\images\twitter-square-brands.png" />
     <Content Include="Resources\stylesheets\index.css" />
     <Content Include="Team.html" />
     <Content Include="Contact.html" />
