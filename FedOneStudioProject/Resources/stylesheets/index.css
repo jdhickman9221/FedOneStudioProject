@@ -78,7 +78,12 @@ h1.whyChooseUs {
 /*#endregion*/
 
 /*#region CONTACT*/
-section.maincontact {
+
+div.contactinfo h3 {
+    border-bottom: 1px solid rgb(85, 85, 85);
+    border-top: 1px solid rgb(85, 85, 85);
+    border-left: 1px dashed rgb(85, 85, 85);
+    border-right: 1px dashed rgb(85, 85, 85);
 }
 
     section.maincontact h1 {
@@ -89,10 +94,11 @@ section.maincontact {
         text-align: center;
     }
 
-    section.maincontact div {
-        width: 500px;
-        margin: auto;
-    }
+section.maincontact div {
+    width: 500px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+}
 
 .contactinfo {
     text-align: left;
@@ -160,21 +166,48 @@ nav ul li {
 
 
 /*#region Images+Classes*/
-.mapsimageanchor a{
-    margin:auto;
+
+section.maincontact a {
+    text-decoration: none;
+}
+
+
+section.maincontact {
+    
+    margin: auto;
+    width: 700px;
+}
+
+
+a.transform {
+    padding-top: 20px;
+}
+
+section.maincontact:hover {
+    transform: scale(1.05, 1.05);
+    background-color:rgb(255, 255, 255);
+}
+
+a.transform :hover {
+    transform: scale(1.05, 1.05);
+}
+
+
+a:hover {
+    cursor: pointer;
+}
+
+.mapsimageanchor a {
+    margin: auto;
     padding-left: 100px;
     padding-right: 100px;
-   
 }
 
 img.instagramlogo {
     float: right;
     padding-top: 5px;
-    padding-right: 5px;
-    padding-left:
+    padding-right: 20px;
 }
-
-
 
 img.facebooklogo {
     float: right;
@@ -187,7 +220,32 @@ img.twitterlogo {
     float: right;
     padding-top: 5px;
     padding-right: 85px;
+    }
+
+    /*#region Font Awesmoe Links and Transforms*/
+img.footeremail:hover {
+    transform: scale(1.15, 1.15);
 }
+
+img.linkedinlogo:hover {
+    transform: scale(1.15, 1.15);
+}
+
+img.instagramlogo:hover {
+    transform: scale(1.15, 1.15);
+}
+
+img.twitterlogo:hover {
+    transform: scale(1.15, 1.15);
+}
+
+img.facebooklogo:hover {
+    transform: scale(1.15, 1.15);
+}
+/*regionend*/
+
+
+
 
 #aboutUspng {
     float: left;
@@ -296,13 +354,14 @@ footer {
     padding-bottom:;
 }
 
-img.footeremail{
+img.footeremail {
     float: right;
     padding-right: 70px;
-    padding-top:34.5px;
+    padding-top: 34.5px;
     padding-bottom: 34.5px;
     margin: auto;
 }
+
 img.linkedinlogo {
     float: right;
     padding-right: 85px;
@@ -310,11 +369,16 @@ img.linkedinlogo {
     padding-bottom: 34.5px;
     margin: auto;
 }
-section.footer{
+
+h6{
+    padding-top: 17px;
+    padding-left: 10px;
+    text-decoration:none;
+    float: left;
+}
+
+section.footer {
     height: 104px;
     width: 1158px;
     padding-bottom: 40px;
 }
-
-
-
