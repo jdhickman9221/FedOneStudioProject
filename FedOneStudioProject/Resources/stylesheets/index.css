@@ -104,6 +104,11 @@ section.maincontact div {
     text-align: left;
 }
 
+div.mapsimageanchor{
+    width: 300px;
+    height: 200px;
+}
+
 /*endregion*/
 
 
@@ -186,10 +191,14 @@ a.transform {
 section.maincontact:hover {
     transform: scale(1.05, 1.05);
     background-color:rgb(255, 255, 255);
+    
 }
 
-a.transform :hover {
+a.transform img:hover {
     transform: scale(1.05, 1.05);
+    filter: opacity(50%);
+   
+    
 }
 
 
@@ -202,6 +211,7 @@ a:hover {
     padding-left: 100px;
     padding-right: 100px;
 }
+
 
 img.instagramlogo {
     float: right;
