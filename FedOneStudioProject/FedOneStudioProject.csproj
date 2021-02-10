@@ -69,6 +69,9 @@
   <ItemGroup>
     <Content Include="Resources\images\aboutus2.png" />
     <Content Include="Resources\images\address.jpg" />
+    <Content Include="Resources\images\administration.png" />
+    <Content Include="Resources\images\administration2.png" />
+    <Content Include="Resources\images\administration3.png" />
     <Content Include="Resources\images\at-solid.png" />
     <Content Include="Resources\images\coldbrew400x267.png" />
     <Content Include="Resources\images\crumpledpaper1154x186.png" />
@@ -77,9 +80,18 @@
     <Content Include="Resources\images\headerimg.png" />
     <Content Include="Resources\images\ibrewlablogolarge.png" />
     <Content Include="Resources\images\instagram-brands.png" />
+    <Content Include="Resources\images\instructor.png" />
+    <Content Include="Resources\images\instructor2.png" />
+    <Content Include="Resources\images\instructor3.png" />
+    <Content Include="Resources\images\leadership.png" />
+    <Content Include="Resources\images\leadership2.png" />
+    <Content Include="Resources\images\leadership3.png" />
     <Content Include="Resources\images\linkedin-brands.png" />
     <Content Include="Resources\images\map-marked-alt-solid.png" />
     <Content Include="Resources\images\origamibirds.png" />
+    <Content Include="Resources\images\sales.png" />
+    <Content Include="Resources\images\sales2.png" />
+    <Content Include="Resources\images\sales3.png" />
     <Content Include="Resources\images\twitter-square-brands.png" />
     <Content Include="Resources\stylesheets\index.css" />
     <Content Include="Team.html" />

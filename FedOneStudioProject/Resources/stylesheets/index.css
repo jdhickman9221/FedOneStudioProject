@@ -77,6 +77,7 @@ h1.whyChooseUs {
 
 /*#endregion*/
 
+
 /*#region CONTACT*/
 
 div.contactinfo h3 {
@@ -86,13 +87,13 @@ div.contactinfo h3 {
     border-right: 1px dashed rgb(85, 85, 85);
 }
 
-    section.maincontact h1 {
-        font-size: 50px;
-        margin: auto;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        text-align: center;
-    }
+section.maincontact h1 {
+    font-size: 50px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
 
 section.maincontact div {
     width: 500px;
@@ -104,12 +105,78 @@ section.maincontact div {
     text-align: left;
 }
 
-div.mapsimageanchor{
+div.mapsimageanchor {
     width: 300px;
     height: 200px;
 }
 
 /*#endregion*/
+
+/*#region TEAM*/
+h1.leadershipHeader {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Monoton', cursive;
+    text-shadow: shadow1, shadow2, shadow3;
+    text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgb(0 0 0 / 15%);
+}
+
+#asideTeam li:hover {
+    background-color: rgba(151, 244, 173, .3);
+    text-shadow: shadow1;
+    text-shadow: 4px 3px 0px #555555
+}
+
+#asideTeam li {
+    width: 249px;
+    height: 66.18px;
+    position: center;
+}
+
+section.meetOurTeam {
+    display: inline-block;
+    width: 74%;
+}
+
+main.meetOurTeam {
+    height: 945.909px;
+    width: 1154px;
+    margin: auto;
+    background-color: rgba(191, 193, 192, .4);
+    display: block;
+}
+
+#asideTeam {
+    height: 945.909px;
+    width: 25%;
+    float: right;
+    display: inline-block;
+    border-left: 2px solid rgb(85, 85, 85);
+    border-right: 2px solid rgb(85, 85, 85);
+}
+
+    #asideTeam h2 {
+        text-align: center;
+        font-family: 'IBM Plex Sans', sans-serif;
+        color: #fff;
+        border-bottom: 2px solid rgb(85,85,85);
+        padding-bottom: 7px;
+        margin: 0;
+    }
+
+        #asideTeam h2:hover {
+            text-shadow: 4px 3px 0px #555555;
+            background-color: rgba(151, 244, 173, .3);
+        }
+
+aside ul li a {
+    list-style-image: url();
+    text-decoration: none;
+    line-height: 4em;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #fff;
+}
+/*#end region*/
 
 
 /*#region Nav Styling*/
@@ -171,25 +238,27 @@ nav ul li {
 
 
 /*#region Images+Classes*/
-div.aboutUs, div.flex-grid{
+div.aboutUs, div.flex-grid {
     background-color: rgba(191, 193, 192, .4);
 }
-html{
+
+html {
     background-color: #000000;
 }
-body{
+
+body {
     background-image: url(/Resources/images/origamibirds.png);
-    background-position:center;
+    background-position: center;
     background-repeat:;
-    background-size:cover;
+    background-size: cover;
 }
+
 section.maincontact a {
     text-decoration: none;
 }
 
 
 section.maincontact {
-    
     margin: auto;
     width: 700px;
 }
@@ -201,15 +270,12 @@ a.transform {
 
 section.maincontact:hover {
     transform: scale(1.05, 1.05);
-    background-color:rgb(255, 255, 255);
-    
+    background-color: rgb(255, 255, 255);
 }
 
 a.transform img:hover {
     transform: scale(1.05, 1.05);
     filter: opacity(50%);
-   
-    
 }
 
 
@@ -241,9 +307,9 @@ img.twitterlogo {
     float: right;
     padding-top: 5px;
     padding-right: 85px;
-    }
+}
 
-    /*#region Font Awesmoe Links and Transforms*/
+/*#region Font Awesmoe Links and Transforms*/
 img.footeremail:hover {
     transform: scale(1.15, 1.15);
 }
@@ -295,7 +361,7 @@ img.whyChooseUs2 {
 
 
 /*#region Why Choose Us*/
- 
+
 
 div.grid-item2 {
     border-top: 2px dashed rgb(85, 85, 85);
@@ -360,6 +426,7 @@ main section {
 /*#endregion*/
 
 
+/*#region FOOTER*/
 footer {
     margin: auto;
     width: 1154px;
@@ -390,10 +457,10 @@ img.linkedinlogo {
     margin: auto;
 }
 
-h6{
+h6 {
     padding-top: 17px;
     padding-left: 10px;
-    text-decoration:none;
+    text-decoration: none;
     float: left;
 }
 
@@ -402,3 +469,4 @@ section.footer {
     width: 1158px;
     padding-bottom: 40px;
 }
+/*#endregion*/
