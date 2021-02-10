@@ -109,7 +109,7 @@ div.mapsimageanchor{
     height: 200px;
 }
 
-/*endregion*/
+/*#endregion*/
 
 
 /*#region Nav Styling*/
@@ -171,7 +171,18 @@ nav ul li {
 
 
 /*#region Images+Classes*/
-
+div.aboutUs, div.flex-grid{
+    background-color: rgba(191, 193, 192, .4);
+}
+html{
+    background-color: #000000;
+}
+body{
+    background-image: url(/Resources/images/origamibirds.png);
+    background-position:center;
+    background-repeat:;
+    background-size:cover;
+}
 section.maincontact a {
     text-decoration: none;
 }
@@ -252,7 +263,7 @@ img.twitterlogo:hover {
 img.facebooklogo:hover {
     transform: scale(1.15, 1.15);
 }
-/*regionend*/
+/*#endregion*/
 
 
 
@@ -262,6 +273,7 @@ img.facebooklogo:hover {
     margin-right: 20px;
     margin-left: 20px;
     width: 250px;
+    padding-top: 5px;
 }
 
 img.companylogo {
@@ -283,9 +295,7 @@ img.whyChooseUs2 {
 
 
 /*#region Why Choose Us*/
-div.whyChooseUsHeader1 h1 {
-    background-color: rgb(255, 255, 255);
-}
+ 
 
 div.grid-item2 {
     border-top: 2px dashed rgb(85, 85, 85);

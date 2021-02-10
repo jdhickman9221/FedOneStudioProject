@@ -79,6 +79,7 @@
     <Content Include="Resources\images\instagram-brands.png" />
     <Content Include="Resources\images\linkedin-brands.png" />
     <Content Include="Resources\images\map-marked-alt-solid.png" />
+    <Content Include="Resources\images\origamibirds.png" />
     <Content Include="Resources\images\twitter-square-brands.png" />
     <Content Include="Resources\stylesheets\index.css" />
     <Content Include="Team.html" />
