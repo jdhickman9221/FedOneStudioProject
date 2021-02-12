@@ -6,6 +6,7 @@
 /*font-family: 'Permanent Marker', cursive; (this is for h3 and down)*/
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
+
 /*#endregion*/
 
 
@@ -112,6 +113,7 @@ div.mapsimageanchor {
 
 /*#endregion*/
 
+
 /*#region TEAM*/
 h1.leadershipHeader {
     text-align: center;
@@ -138,7 +140,7 @@ section.meetOurTeam {
     width: 74%;
 }
 
-main.meetOurTeam {
+main {
     height: 945.909px;
     width: 1154px;
     margin: auto;
@@ -160,14 +162,11 @@ main.meetOurTeam {
         font-family: 'IBM Plex Sans', sans-serif;
         color: #fff;
         border-bottom: 2px solid rgb(85,85,85);
-        padding-bottom: 7px;
+        padding-bottom: 5px;
         margin: 0;
     }
 
-        #asideTeam h2:hover {
-            text-shadow: 4px 3px 0px #555555;
-            background-color: rgba(151, 244, 173, .3);
-        }
+
 
 aside ul li a {
     list-style-image: url();
@@ -176,7 +175,127 @@ aside ul li a {
     font-family: 'IBM Plex Sans', sans-serif;
     color: #fff;
 }
-/*#end region*/
+
+div.leaders {
+    margin-bottom: 100px;
+    margin-left: 30px;
+    height: 180px;
+}
+
+    div.leaders h3 {
+        margin: auto;
+        margin-bottom: 0px;
+    }
+
+main.meetOurTeam img {
+    height: 150px;
+    width: 150px;
+    margin: 15px 15px 15px 15px;
+    border-radius: 50%;
+    transition: width .55s, height .55s, transform .55s;
+    float: left;
+}
+
+    main.meetOurTeam img:hover {
+        transform: scale(1.15, 1.15);
+        transition-timing-function: ease-in-out;
+    }
+
+#asideTeam h2:hover {
+    text-shadow: 4px 3px 0px #555555;
+    background-color: rgba(151, 244, 173, .3);
+}
+/*#endregion*/
+
+
+/*#region CLASSES*/
+h1.classes {
+    font-size: 25px;
+    font-family: 'Monoton', cursive;
+    text-shadow: shadow1, shadow2, shadow3;
+    text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+    text-align:center;
+}
+div.flex-grid-thirds {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 15px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    line-height: 14px;
+    
+}
+    div.flex-grid-thirds img{
+        
+    }
+    div.flex-grid-thirds p {
+        font-size: 12px;
+        width:235px;
+        height: 60px;
+        color: black;
+    }
+    div.flex-grid-thirds h4, div.flex-grid-thirds p {
+        margin: auto;
+    }
+
+    div.flex-grid-thirds h4 {
+        font-family: 'Permanent Marker', cursive;
+        font-size: 16px;
+    }
+
+div.col-classes {
+    padding: 15px;
+    padding-bottom: 0px;
+    padding-top: 20px;
+    height: 270px;
+    background-image: url(/Resources/images/crumpledpaper1154x186.png);
+    background-size: 700px, 700px;
+    transition: width .55s, height .55s, transform .55s;
+    box-shadow: 12px 12px 3px 1px rgba(0, 0, 0, .2);
+}
+
+    div.col-classes:hover {
+        transform: scale(1.15, 1.15);
+        transition-timing-function: ease-in-out;
+    }
+
+table#classList,
+td {
+    border: 1px solid #333;
+    margin: auto;
+    background-color: rgba(185, 104, 199,.2);
+    color: white;
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
+/*#endregion*/
+
+
+/*#region Header Styling*/
+header {
+    margin: auto;
+    width: 1150px;
+    height: 250px;
+    background-image: url(/Resources/images/headerimg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 2px solid rgb(85, 85, 85);
+    border-left: 2px solid rgb(85, 85, 85);
+    border-right: 2px solid rgb(85, 85, 85);
+}
+
+main section {
+    width: 950px;
+}
+
+    main section p {
+        font-size: 16px;
+    }
+/*#endregion*/
 
 
 /*#region Nav Styling*/
@@ -238,12 +357,14 @@ nav ul li {
 
 
 /*#region Images+Classes*/
-div.aboutUs, div.flex-grid {
-    background-color: rgba(191, 193, 192, .4);
-}
 
-html {
+
+html{
     background-color: #000000;
+    
+}
+html p {
+    color: white;
 }
 
 body {
@@ -294,6 +415,7 @@ img.instagramlogo {
     float: right;
     padding-top: 5px;
     padding-right: 20px;
+    transition: width .55s, height .55s, transform .55s;
 }
 
 img.facebooklogo {
@@ -301,33 +423,40 @@ img.facebooklogo {
     padding-top: 5px;
     padding-right: 85px;
     padding-bottom: 0;
+    transition: width .55s, height .55s, transform .55s;
 }
 
 img.twitterlogo {
     float: right;
     padding-top: 5px;
     padding-right: 85px;
+    transition: width .55s, height .55s, transform .55s;
 }
 
 /*#region Font Awesmoe Links and Transforms*/
 img.footeremail:hover {
     transform: scale(1.15, 1.15);
+    transition-timing-function: ease-in-out;
 }
 
 img.linkedinlogo:hover {
     transform: scale(1.15, 1.15);
+    transition-timing-function: ease-in-out;
 }
 
 img.instagramlogo:hover {
     transform: scale(1.15, 1.15);
+    transition-timing-function: ease-in-out;
 }
 
 img.twitterlogo:hover {
     transform: scale(1.15, 1.15);
+    transition-timing-function: ease-in-out;
 }
 
 img.facebooklogo:hover {
     transform: scale(1.15, 1.15);
+    transition-timing-function: ease-in-out;
 }
 /*#endregion*/
 
@@ -403,29 +532,6 @@ div .grid-item2 p, div .grid-item3 p {
 /*#endregion*/
 
 
-/*#region Header Styling*/
-header {
-    margin: auto;
-    width: 1150px;
-    height: 250px;
-    background-image: url(/Resources/images/headerimg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-top: 2px solid rgb(85, 85, 85);
-    border-left: 2px solid rgb(85, 85, 85);
-    border-right: 2px solid rgb(85, 85, 85);
-}
-
-main section {
-    width: 950px;
-}
-
-    main section p {
-        font-size: 16px;
-    }
-/*#endregion*/
-
-
 /*#region FOOTER*/
 footer {
     margin: auto;
@@ -447,6 +553,7 @@ img.footeremail {
     padding-top: 34.5px;
     padding-bottom: 34.5px;
     margin: auto;
+    transition: width .55s, height .55s, transform .55s;
 }
 
 img.linkedinlogo {
@@ -455,6 +562,7 @@ img.linkedinlogo {
     padding-top: 34.5px;
     padding-bottom: 34.5px;
     margin: auto;
+    transition: width .55s, height .55s, transform .55s;
 }
 
 h6 {
