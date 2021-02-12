@@ -215,6 +215,7 @@ h1.classes {
     text-shadow: shadow1, shadow2, shadow3;
     text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
     text-align:center;
+    margin: auto;
 }
 div.flex-grid-thirds {
     display: flex;
@@ -265,6 +266,7 @@ td {
     margin: auto;
     background-color: rgba(185, 104, 199,.2);
     color: white;
+    
 }
 
 thead,
