@@ -24,6 +24,7 @@ p.slogan {
     padding-bottom: 0;
     margin: auto;
     color: rgba(243, 243, 243, 1);
+    text-decoration: none;
 }
 
 h1.companyname {
@@ -86,7 +87,12 @@ div.contactinfo h3 {
     border-top: 1px solid rgb(85, 85, 85);
     border-left: 1px dashed rgb(85, 85, 85);
     border-right: 1px dashed rgb(85, 85, 85);
+    text-decoration: none;
 }
+
+    div.contactinfo h3 a {
+        color:white;
+    }
 
 section.maincontact h1 {
     font-size: 50px;
@@ -99,11 +105,11 @@ section.maincontact h1 {
 section.maincontact div {
     width: 500px;
     margin: auto;
-    background-color: rgb(255, 255, 255);
 }
 
 .contactinfo {
     text-align: left;
+    text-decoration: none;
 }
 
 div.mapsimageanchor {
@@ -214,9 +220,10 @@ h1.classes {
     font-family: 'Monoton', cursive;
     text-shadow: shadow1, shadow2, shadow3;
     text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
-    text-align:center;
+    text-align: center;
     margin: auto;
 }
+
 div.flex-grid-thirds {
     display: flex;
     justify-content: space-between;
@@ -224,17 +231,18 @@ div.flex-grid-thirds {
     padding: 15px;
     font-family: 'IBM Plex Sans', sans-serif;
     line-height: 14px;
-    
 }
-    div.flex-grid-thirds img{
-        
+
+    div.flex-grid-thirds img {
     }
+
     div.flex-grid-thirds p {
         font-size: 12px;
-        width:235px;
+        width: 235px;
         height: 60px;
         color: black;
     }
+
     div.flex-grid-thirds h4, div.flex-grid-thirds p {
         margin: auto;
     }
@@ -266,7 +274,7 @@ td {
     margin: auto;
     background-color: rgba(185, 104, 199,.2);
     color: white;
-    
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 thead,
@@ -361,13 +369,13 @@ nav ul li {
 /*#region Images+Classes*/
 
 
-html{
+html {
     background-color: #000000;
-    
 }
-html p {
-    color: white;
-}
+
+    html p {
+        color: white;
+    }
 
 body {
     background-image: url(/Resources/images/origamibirds.png);
@@ -393,7 +401,6 @@ a.transform {
 
 section.maincontact:hover {
     transform: scale(1.05, 1.05);
-    background-color: rgb(255, 255, 255);
 }
 
 a.transform img:hover {
@@ -426,6 +433,7 @@ img.facebooklogo {
     padding-right: 85px;
     padding-bottom: 0;
     transition: width .55s, height .55s, transform .55s;
+    text-decoration: none;
 }
 
 img.twitterlogo {
