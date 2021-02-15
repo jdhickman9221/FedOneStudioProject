@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="classtables.html" />
     <Content Include="Resources\images\aboutus2.png" />
     <Content Include="Resources\images\class6.png" />
     <Content Include="Resources\images\address.jpg" />
@@ -99,6 +100,7 @@
     <Content Include="Resources\images\sales3.png" />
     <Content Include="Resources\images\class3.png" />
     <Content Include="Resources\images\twitter-square-brands.png" />
+    <Content Include="Resources\scripts\JavaScript.js" />
     <Content Include="Resources\stylesheets\index.css" />
     <Content Include="teaminstructors.html" />
     <Content Include="teamadministration.html" />
@@ -121,9 +123,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Resources\scripts\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
